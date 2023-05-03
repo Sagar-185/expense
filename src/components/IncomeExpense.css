@@ -1,0 +1,30 @@
+.IncomeExpense{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0.2rem;
+    text-align: center;
+}
+
+.IncomeExpense > div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .IncomeExpense > div:first-of-type {
+    border-right: 1px solid #dedede;
+  }
+  
+  .money {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+  }
+  
+  .money.green {
+    color: #2ecc71;
+  }
+  
+  .money.red {
+    color: #c0392b;
+  }
